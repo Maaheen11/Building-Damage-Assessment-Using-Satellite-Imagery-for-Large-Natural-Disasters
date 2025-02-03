@@ -20,15 +20,15 @@ This project focuses on detecting and classifying the extent of building damage 
 ## Usage
 - **Damage Assessment:**
   ```bash
-  python damage_assessment.py
+  python damage_assessment.py --input --input "/path/to/dataset/"
   ```
 - **Mask Generation:**
   ```bash
-  python mask_polygons.py
+  python mask_polygons.py --input "/path/to/xBD/" --single-file 
   ```
 - **Dataset Categorization:**
   ```bash
-  python split_into_disasters.py
+  python split_into_disasters.py --input "/path/to/dataset/train" --output "/path/to/output/xBD"
   ```
 
 Refer to the `Documentation/` folder for detailed information about the project.
